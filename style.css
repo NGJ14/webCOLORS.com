@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alert {
+  display: initial;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  background: lightgreen;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.alert button {
+  padding: 4px 5px;
+  margin-top: 10px;
+  width: 100%;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.one, .two, .three, .four {
+  width: 25%;
+  height: 100vh;
+  border: 5px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.one i, .two i, .three i, .four i {
+  opacity: 0.6;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
